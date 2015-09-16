@@ -5,6 +5,8 @@ Git Tutorial for Hackerspace
 
 *Forking*: make a copy of one person's repository on your own GitHub (or other git service) account
 
+*Branching*: make a copy of the base branch (what you're currently on) into another branch and modify files as you please, not affecting the base branch
+
 *Pull request*: sending your changes to your own repository back to the original repository that you forked from
 
 
@@ -33,6 +35,14 @@ Git Tutorial for Hackerspace
 - Longer form:
     `git push origin master`
 
+`git branch <name>`
+
+- makes a new git branch with that name
+
+`git checkout <name>`
+
+- switch to a previously created branch
+- can save a step if you want to create a new branch and switch to it using `git checkout -b <branch name>`
 
 Other useful commands:
 
