@@ -1,7 +1,14 @@
 Git Tutorial for Hackerspace
 ============================
 
-Handy git commands:
+**Terminology:**
+
+*Forking*: make a copy of one person's repository on your own GitHub (or other git service) account
+
+*Pull request*: sending your changes to your own repository back to the original repository that you forked from
+
+
+**Handy git commands:**
 
 `git status`
 
@@ -18,6 +25,7 @@ Handy git commands:
 
 - commit the changes into a local commit
 - for multiple line commit messages, remove the -m and message arguments
+- cool trick to add new changes to your last commit is to use the `--amend` tag
 
 `git push`
 
